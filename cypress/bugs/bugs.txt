@@ -1,0 +1,51 @@
+Bugs report
+
+After launching 7 tests 3 of them are failed.
+
+First failed test "2. Ensure that it possible select 50 rentals"
+Title:
+Pricing page - ultimate package contain wrong price (50 rentals)
+Steps to reproduce
+1. Go to home page - http://localhost:8080
+2. Click pricing.html link
+3. Select 50 rentals
+Actual result:
+When Cypress click on 50 rentals final amount 49
+
+Expected result:
+50 rental should be available when user click to 50
+
+
+Second failed test "3. Checking starter price with 50 rentals"
+Title:
+Pricing page - ultimate package contain wrong price (50 rentals)
+Steps to reproduce
+1. Go to home page - http://localhost:8080
+2. Click pricing.html link
+3. Ensure that Yearly plan is active
+4. Select 50 rentals
+
+Actual result:
+Ultimate plan price incorrect - 518$
+
+
+Expected result:
+ultimate plan price should be 525$
+
+Third failed test "4. Ensure that default currency is usd"
+Title:
+Pricing page - ultimate package contain wrong price (50 rentals)
+Steps to reproduce
+1. Go to home page - http://localhost:8080
+2. Click pricing.html link
+3. Ensure that all prices by default in USD
+4. Ensure that currency dropdown selector has usd
+Actual result:
+Currency dropdown selector in eur
+
+
+Expected result:
+All prices should be in EUR according to dropdown selector value
+
+All screenshot you could check after launching tests in screenshot folder
+Video is available in video folder after launching the tests
