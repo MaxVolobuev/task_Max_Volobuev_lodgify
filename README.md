@@ -1,3 +1,5 @@
+Check bugs folder in Cypress - bugs
+
 Open LodgifyHTML as a project to get started
 
 The following instructions use Bash, so make sure to install Git Bash before running the commands.
